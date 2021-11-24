@@ -1,0 +1,89 @@
+.contentContainer.dashboard {
+  height: auto;
+  background: #fff;
+  max-width: 600px;
+  margin: auto auto 100px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.contentHeader.dashboard {
+  height: 120px;
+  background: #016738;
+  font-size: 30px;
+  padding: 25px;
+  color: #fff;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.contentHeader.dashboard .name {
+  color: #ff9e1b;
+}
+
+.contentBody.dashboard {
+  padding: 25px;
+}
+
+.text-title {
+  font-size: 20px;
+}
+
+.contentBody.dashboard .firstSection {
+  width: 100%;
+  background: #0f6657;
+  height: 100px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 0px 25px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.contentBody.dashboard .firstSection .item {
+  padding: 25px 0px 0px;
+}
+
+.contentBody.dashboard .firstSection .item2 {
+  padding: 25px 0px 0px;
+  color: #fff;
+}
+
+.contentBody.dashboard .secondSection {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-around;
+}
+
+.contentBody.dashboard .secondSection .first {
+  width: 100%;
+  height: auto;
+  background: #fef1f4;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.contentBody.dashboard .secondSection .second {
+  width: 100%;
+  height: auto;
+  background: #f1fef3;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.contentBody.dashboard .secondSection .third {
+  width: 100%;
+  height: auto;
+  background: #fefef1;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 500px) {
+  .contentBody.dashboard .secondSection {
+    grid-template-columns: 45% 45%;
+  }
+
+  .contentBody.dashboard .secondSection .third {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,117 @@
+.contentContainer.quests {
+  height: auto;
+  background: #fff;
+  max-width: 600px;
+  margin: auto auto 100px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.contentHeader.quests {
+  height: 120px;
+  background: #f4f4f4;
+  font-size: 30px;
+  padding: 25px;
+  color: #000;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.contentHeader.quests .title {
+  color: #016738;
+  font-weight: bold;
+}
+
+.contentHeader.quests .title .navIcon img {
+  width: 13px;
+  cursor: pointer;
+  position: relative;
+  bottom: 2px;
+}
+
+.contentHeader.quests .title .navTitle {
+  margin-left: 10px;
+}
+
+.contentHeader.quests .title.text-dark {
+  color: #000;
+}
+
+.contentHeader.quests .listBox {
+  display: flex;
+  font-size: 17px;
+}
+
+.contentHeader.quests .listBox div {
+  background: #e3eee9;
+  color: #016738;
+  padding-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contentHeader.quests .listBox div:not(:first-child) {
+  margin-left: 10px;
+}
+
+.contentHeader.quests .listBox div img {
+  padding: 0px 10px;
+}
+
+.contentBody.quests {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.contentContainer.quests .contentItem {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: 30px;
+}
+
+.contentContainer.quests .contentItem:hover {
+  cursor: pointer;
+  background: #f4f4f4;
+}
+
+.contentContainer.quests .contentItem .item1 img {
+  width: 80px;
+  height: 80px;
+}
+
+.contentContainer.quests .contentItem .item2 .section1 {
+  font-weight: bold;
+}
+
+.contentContainer.quests .contentItem .item2 .section2 {
+  color: #888888;
+}
+
+.contentContainer.quests .contentItem .item2 .section3 {
+  color: #0f6657;
+  font-weight: 500;
+}
+
+.contentContainer.quests .contentFooter {
+  padding: 20px 0px 20px 20px;
+}
+
+.badgeSection {
+  margin-right: 20px;
+  position: relative;
+  bottom: 40px;
+  text-align: right;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .contentHeader.quests .title {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .contentHeader.quests .title .navIcon img {
+    width: auto;
+    cursor: pointer;
+    position: relative;
+    bottom: 2px;
+  }
+}

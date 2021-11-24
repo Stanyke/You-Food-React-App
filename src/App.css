@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body {
+  background: #f8f9fa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-dark {
+  color: #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-small {
+  font-size: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-bold {
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.text-light {
+  color: rgb(133, 133, 133);
+  font-size: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-title-bold {
+  font-weight: bold;
+  color: rgb(133, 133, 133);
+}
+
+.greenBtn {
+  border-radius: 10px;
+  background: #016738;
+  color: #fff;
+}
+
+.greenBtn:hover {
+  color: orange;
+}
+
+.badge-warning {
+  background: #fff8ee;
+  color: orange;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.icon-bar {
+  color: #000;
 }

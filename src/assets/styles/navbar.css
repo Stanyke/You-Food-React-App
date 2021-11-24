@@ -1,0 +1,49 @@
+.navbar {
+  background: #fff;
+  margin-bottom: 50px;
+}
+
+.navbar-nav > li {
+  cursor: pointer;
+}
+
+.logoutStyle div:nth-child(1) {
+  text-align: center;
+}
+
+.listStyle {
+  background: #f8f9fa;
+  color: #45b181;
+  width: 30px;
+  height: 30px;
+}
+
+.listStyle div:nth-child(1) {
+  position: relative;
+  top: 3px;
+  left: 0px;
+}
+
+li div:nth-child(2) {
+  font-weight: bold;
+}
+
+.rightSide{
+  margin: 0px 10px;
+  font-weight: bold;
+}
+
+.nav-link{
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .logoutStyle div:nth-child(1) {
+    text-align: left;
+  }
+
+  .rightSide{
+    margin: 0px;
+    text-align: center;
+  }
+}
