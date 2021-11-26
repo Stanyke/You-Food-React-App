@@ -1,6 +1,7 @@
 import * as React from "react";
 import axios from "axios";
 import ACTIONS from "../actions";
+import testData from "../../assets/tests/data.json";
 // import { useLocation } from "react-router-dom";
 const { SET_ALL_QUESTS } = ACTIONS;
 
@@ -19,10 +20,17 @@ function useApp() {
 
   const getQuestsFromDb = async () => {
     const { data } = await axios.get(`/api/v1/quest`);
-    console.log('eeeeeeee', data)
     dispatch({
       type: SET_ALL_QUESTS,
       payload: data.data.quests,
+    });
+  };
+
+  const getQuestsFromTestData = async () => {
+    const data = await testData;
+    dispatch({
+      type: SET_ALL_QUESTS,
+      payload: data.quests,
     });
   };
 
@@ -30,6 +38,7 @@ function useApp() {
     appState,
     dispatch,
     getQuestsFromDb,
+    getQuestsFromTestData
   };
 }
 

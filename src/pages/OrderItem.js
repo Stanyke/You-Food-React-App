@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useLocation, useParams, useNavigate } from "react-router-dom";
-import itemIcon from "../assets/images/itemIcon.png";
 import ovalDot from "../assets/images/ovalDot.png";
 import BackArrowIcon from "../assets/images/backArrowIcon.png";
 import BoxItem from "../components/BoxItem";
@@ -10,11 +9,9 @@ export default function OrderItem() {
   const { state } = useLocation();
   const { id } = useParams();
   const order = state?.order;
+  const quest = state?.quest;
   const navigate = useNavigate();
-  const [orderData, setOrderData] = useState(order?.products);
-  const [filteredOrderData, setFilteredOrderData] = useState([]);
   const [activeTagElement, setActiveTagElement] = useState(null);
-  const [updatedCategories, setUpdatedCategories] = useState(null);
 
   if (!state || order?._id.toString() !== id.toString()) {
     return (window.location = "/quests");
@@ -46,9 +43,10 @@ export default function OrderItem() {
             <span
               className="navIcon"
               onClick={() => {
-                navigate("/quests", {
+                navigate("/quests/"+quest._id, {
                   state: {
-                    quest: null,
+                    order: null,
+                    quest: quest
                   },
                 });
               }}

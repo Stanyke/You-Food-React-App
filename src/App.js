@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/quests" element={<Quests />} />
+          <Route path="/quests/:id" element={<Quests />} />
           <Route path="/orders/:id" element={<OrderItem />} />
         </Routes>
       </BrowserRouter>
