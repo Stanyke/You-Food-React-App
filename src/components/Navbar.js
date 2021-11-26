@@ -22,40 +22,87 @@ export default function Navbar() {
     }
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light">
-                <div className="navbar-brand" onClick={() => navigationHandler('/')}><img src={Logo} alt="logo" /></div>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
+            <div className="showOnMobile">
+                <nav className="navbar navbar-expand-lg navbar-light navbarPc">
+                    <div className="navbar-brand" onClick={() => navigationHandler('/')}><img src={Logo} alt="logo" /></div>
+                </nav>
+            </div>
 
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
-                            <div className="nav-link" onClick={() => navigationHandler('/')}><div><img src={HomeIcon} alt="HomeIcon" /></div>
-                                <div>Home</div></div>
-                        </li>
-                        <li className="nav-item">
-                            <div className="nav-link" onClick={() => navigationHandler('/quests')}><div><img src={RoundRingIcon} alt="RoundRingIcon" /></div>
-                                <div>Quests</div></div>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#"><div><img src={PayoutIcon} alt="PayoutIcon" /></div>
-                                <div>Payouts</div></a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#"><div><img src={ProfileIcon} alt="ProfileIcon" /></div>
-                                <div>Account</div></a>
-                        </li>
-                    </ul>
+            <div className="hideOnMobile">
+                <nav className="navbar navbar-expand-lg navbar-light navbarPc">
+                    <div className="navbar-brand" onClick={() => navigationHandler('/')}><img src={Logo} alt="logo" /></div>
 
-                    <div className="listStyle rightSide">
-                        <div className="text-center"><img src={BellIcon} alt="BellIcon" /></div>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav mr-auto">
+                            <li className="nav-item active">
+                                <div className="nav-link" onClick={() => navigationHandler('/')}>
+                                    <div><img src={HomeIcon} alt="HomeIcon" /></div>
+                                    <div>Home</div>
+                                </div>
+                            </li>
+                            <li className="nav-item">
+                                <div className="nav-link" onClick={() => navigationHandler('/quests')}>
+                                    <div><img src={RoundRingIcon} alt="RoundRingIcon" /></div>
+                                    <div>Quests</div>
+                                </div>
+                            </li>
+                            <li className="nav-item">
+                                <div className="nav-link">
+                                    <div><img src={PayoutIcon} alt="PayoutIcon" /></div>
+                                    <div>Payouts</div>
+                                </div>
+                            </li>
+                            <li className="nav-item">
+                                <div className="nav-link">
+                                    <div><img src={ProfileIcon} alt="ProfileIcon" /></div>
+                                    <div>Account</div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div className="listStyle rightSide">
+                            <div className="text-center"><img src={BellIcon} alt="BellIcon" /></div>
+                        </div>
+
+                        <div className="logoutStyle rightSide">
+                            <div className="text-center"><img src={LogoutIcon} alt="LogoutIcon" /></div>
+                            <div>Logout</div>
+                        </div>
                     </div>
+                </nav>
+            </div>
 
-                    <a href="#" className="logoutStyle rightSide">
-                        <div className="text-center"><img src={LogoutIcon} alt="LogoutIcon" /></div>
-                        <div>Logout</div>
-                    </a>
+
+            <nav className="navbarMobile">
+                <div className="navContainer">
+                    <div>
+                        <div className="nav-link mobileLink" onClick={() => navigationHandler('/')}>
+                            <div><img src={HomeIcon} alt="HomeIcon" /></div>
+                            <div>Home</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="nav-link mobileLink" onClick={() => navigationHandler('/quests')}>
+                            <div><img src={RoundRingIcon} alt="RoundRingIcon" /></div>
+                            <div>Quests</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="nav-link mobileLink">
+                            <div><img src={PayoutIcon} alt="PayoutIcon" /></div>
+                            <div>Payouts</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="nav-link mobileLink">
+                            <div><img src={ProfileIcon} alt="ProfileIcon" /></div>
+                            <div>Account</div>
+                        </div>
+                    </div>
                 </div>
             </nav>
 

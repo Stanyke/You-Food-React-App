@@ -1,6 +1,5 @@
 .navbar {
   background: #fff;
-  margin-bottom: 50px;
 }
 
 .navbar-nav > li {
@@ -37,6 +36,37 @@ li div:nth-child(2) {
   text-align: center;
 }
 
+.navbarMobile, .showOnMobile{
+  display: none;
+}
+
+.navbarMobile .navContainer{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  background: #ffffff;
+  color: #828282;
+  bottom: 0;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 50px;
+}
+
+.navbarMobile .navContainer .mobileLink{
+  cursor: pointer;
+}
+
+.navbarMobile .navContainer .mobileLink:hover{
+  background: #45b181;
+  color: #fff;
+}
+
+.navbarMobile .navContainer .mobileLink div{
+  font-size: 12px;
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   .logoutStyle div:nth-child(1) {
     text-align: left;
@@ -45,5 +75,20 @@ li div:nth-child(2) {
   .rightSide{
     margin: 0px;
     text-align: center;
+  }
+}
+
+@media (max-width: 776px) {
+  .navbarMobile, .showOnMobile{
+    display: block;
+  }
+
+  .hideOnMobile{
+    display: none;
+  }
+
+  .navbarPc{
+    display: flex;
+    justify-content: center;
   }
 }

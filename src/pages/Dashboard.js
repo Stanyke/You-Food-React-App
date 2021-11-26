@@ -20,7 +20,7 @@ export default function Dashboard() {
                         </div>
                         <div className="item2">
                             <p>Quest</p>
-                            <div>45 minutes remaining</div>
+                            {/* <div>45 minutes remaining</div> */}
                         </div>
                     </div>
 
@@ -29,17 +29,17 @@ export default function Dashboard() {
                         <div className="first">
                             <p className="text-title-bold">Total Quests</p>
                             <p className="text-bold">5</p>
-                            <p><span className="text-light-mine">8.3%</span> up from yesterday</p>
+                            {/* <p><span className="text-light-mine">8.3%</span> up from yesterday</p> */}
                         </div>
                         <div className="second">
                             <p className="text-title-bold">Completed Quests</p>
                             <p className="text-bold">30</p>
-                            <p><span className="text-light-mine">8.3%</span> up from yesterday</p>
+                            {/* <p><span className="text-light-mine">8.3%</span> up from yesterday</p> */}
                         </div>
                         <div className="third">
                             <p className="text-title-bold">Picked up Quests</p>
                             <p className="text-bold">30</p>
-                            <p><span className="text-light-mine">8.3%</span> up from yesterday</p>
+                            {/* <p><span className="text-light-mine">8.3%</span> up from yesterday</p> */}
                         </div>
                     </div>
                 </div>
