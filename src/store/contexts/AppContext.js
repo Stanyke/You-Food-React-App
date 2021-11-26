@@ -18,7 +18,15 @@ function useApp() {
   axios.defaults.baseURL = REACT_APP_SERVER_URL;
   axios.defaults.headers.post["Content-Type"] = "application/json";
 
+  const emptyQuests = () => {
+    dispatch({
+      type: SET_ALL_QUESTS,
+      payload: {},
+    });
+  };
+
   const getQuestsFromDb = async () => {
+    emptyQuests();
     const { data } = await axios.get(`/api/v1/quest`);
     dispatch({
       type: SET_ALL_QUESTS,
@@ -27,6 +35,7 @@ function useApp() {
   };
 
   const getQuestsFromTestData = async () => {
+    emptyQuests();
     const data = await testData;
     dispatch({
       type: SET_ALL_QUESTS,
@@ -38,7 +47,7 @@ function useApp() {
     appState,
     dispatch,
     getQuestsFromDb,
-    getQuestsFromTestData
+    getQuestsFromTestData,
   };
 }
 

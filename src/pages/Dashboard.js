@@ -8,6 +8,7 @@ export default function Dashboard() {
   const {
     appState: { quests },
     getQuestsFromDb,
+    getQuestsFromTestData
   } = useApp();
 
   const navigate = useNavigate();
@@ -16,8 +17,8 @@ export default function Dashboard() {
   const [questsStats, setQuestsStats] = useState(null);
 
   useEffect(() => {
-    getQuestsFromDb();
-  }, [getQuestsFromDb]);
+    getQuestsFromTestData();
+  }, []);
 
   useEffect(() => {
     if (Object.values(quests).length) {
