@@ -19,6 +19,7 @@ function useApp() {
 
   const getQuestsFromDb = async () => {
     const { data } = await axios.get(`/api/v1/quest`);
+    console.log('eeeeeeee', data)
     dispatch({
       type: SET_ALL_QUESTS,
       payload: data.data.quests,

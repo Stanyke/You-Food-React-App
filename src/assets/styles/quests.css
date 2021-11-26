@@ -38,14 +38,25 @@
 .contentHeader.quests .listBox {
   display: flex;
   font-size: 17px;
+  overflow: auto;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+
+.contentHeader.quests .listBox::-webkit-scrollbar {
+  height: 5px;
 }
 
 .contentHeader.quests .listBox div {
-  background: #e3eee9;
-  color: #016738;
+  color: #8a8f8d;
   padding-right: 10px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.contentHeader.quests .listBox div.active {
+  background: #e3eee9;
+  color: #016738;
 }
 
 .contentHeader.quests .listBox div:not(:first-child) {

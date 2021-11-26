@@ -9,7 +9,7 @@ import {
 import Navbar from './components/Navbar';
 import Dashboard from './pages/Dashboard';
 import Quests from './pages/Quests';
-import QuestItem from './pages/QuestItem';
+import OrderItem from './pages/OrderItem';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/quests" element={<Quests />} />
-          <Route path="/quests/:id" element={<QuestItem />} />
+          <Route path="/orders/:id" element={<OrderItem />} />
         </Routes>
       </BrowserRouter>
     </>
