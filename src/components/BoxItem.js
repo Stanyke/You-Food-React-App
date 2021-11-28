@@ -1,9 +1,9 @@
 import React from 'react';
 import '../assets/styles/quests.css';
 
-export default function BoxItem({ id, icon, iconAltText, section1, section2, section3, status }) {
+export default function BoxItem({ icon, iconAltText, section1, section2, section3, status }) {
     return (
-        <div key={id}>
+        <div>
             <div className="contentItem">
                 <div className="item1">
                     <img src={icon} alt={iconAltText || "item icon"} />

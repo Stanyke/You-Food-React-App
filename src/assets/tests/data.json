@@ -1,0 +1,809 @@
+{
+    "quests": [
+        {
+            "_id": "61a1075f65e9850011dcc5c2",
+            "orders": [
+                {
+                    "_id": "61a1075365e9850011dcc5b9",
+                    "status": "DELIVERED",
+                    "discounts": [],
+                    "products": [
+                        {
+                            "_id": "61a1075365e9850011dcc5ba",
+                            "product": {
+                                "_id": "6163acacc442723bf43530c5",
+                                "manufacturerData": {
+                                    "otherCountries": [],
+                                    "name": "Jästbolaget",
+                                    "originCountry": "",
+                                    "tradeItemCountryOfOrigin": "Sverige"
+                                },
+                                "precautionaryData": {
+                                    "hazards": [],
+                                    "statements": [],
+                                    "batteryInfo": [],
+                                    "areBatteriesIncluded": null,
+                                    "areBatteriesRequired": null
+                                },
+                                "labels": [],
+                                "name": "Jäst Sockerdeg",
+                                "storeId": "100394146_ST",
+                                "storePotentialPromotions": [],
+                                "eanCode": "73500346",
+                                "displayVolume": "50g",
+                                "incrementValue": 1,
+                                "outOfStock": false,
+                                "online": true,
+                                "fruitAndVegetableVariety": "",
+                                "variantType": "",
+                                "description": "",
+                                "preparationDescription": "",
+                                "preparationType": "",
+                                "servingSize": null,
+                                "instructions": "",
+                                "foodContactName": "",
+                                "foodContactAddress": "",
+                                "nutritionData": {
+                                    "ingredients": "",
+                                    "facts": "",
+                                    "description": "",
+                                    "factList": []
+                                },
+                                "productLine2": "JÄSTBOLAGET, 50g",
+                                "pickupProductLine2": "JÄSTBOLAGET, 50g",
+                                "nicotineMedicalProduct": false,
+                                "nonEkoProduct": false,
+                                "productBasketType": {
+                                    "code": "ST",
+                                    "type": "ProductBasketTypeEnum"
+                                },
+                                "image": {
+                                    "imageType": "PRIMARY",
+                                    "format": "zoom",
+                                    "url": "https://d2rfo6yapuixuu.cloudfront.net/h68/h54/8854625255454/73500346.jpg_master_axfood_400",
+                                    "altText": "Jäst Sockerdeg 50g Jästbolaget",
+                                    "galleryIndex": null,
+                                    "width": null
+                                },
+                                "thumbnail": {
+                                    "imageType": "PRIMARY",
+                                    "format": "thumbnail",
+                                    "url": "https://d2rfo6yapuixuu.cloudfront.net/h27/h58/8854625386526/73500346.jpg_master_axfood_100",
+                                    "altText": "Jäst Sockerdeg 50g Jästbolaget",
+                                    "galleryIndex": null,
+                                    "width": null
+                                },
+                                "regulatoryAct": "",
+                                "compulsoryAdditiveLabelData": "",
+                                "nutritionalClaim": "",
+                                "healthClaimDescription": "",
+                                "consumerUsageInstructions": "",
+                                "consumerStorageInstructions": "",
+                                "categoryGroupText": "",
+                                "category": "mejeri-ost-och-agg/smor-margarin-och-jast/jast",
+                                "animalData": null,
+                                "averageWeight": null,
+                                "priceData": {
+                                    "amount": "2,8 kr",
+                                    "value": 2.8,
+                                    "comparePrice": "55,0 kr",
+                                    "comparePriceUnit": "kg",
+                                    "unit": "kr/st"
+                                },
+                                "store": "willys",
+                                "createdAt": "2021-10-11T03:17:00.668Z",
+                                "updatedAt": "2021-10-11T03:17:00.668Z",
+                                "__v": 0,
+                                "categories": [
+                                    "mejeri-ost-och-agg",
+                                    "smor-margarin-och-jast",
+                                    "jast"
+                                ]
+                            },
+                            "quantity": 1
+                        }
+                    ],
+                    "totalAmount": 51.8,
+                    "totalQuantity": 1,
+                    "deliveryAddress": {
+                        "name": "Kung Magnus väg 3, 621 45 Visby, Sweden",
+                        "lat": 57.6377168,
+                        "lng": 18.2986391
+                    },
+                    "customer": {
+                        "_id": "61a0d984593c680011133f55",
+                        "addresses": [],
+                        "subscription": "regular",
+                        "lastLogin": null,
+                        "email": "ztg4vzxcs2@privaterelay.appleid.com",
+                        "avatar": "null",
+                        "firstName": "Felix",
+                        "lastName": "Olofsson",
+                        "deviceId": "deviceId",
+                        "phoneNumber": "0706491112",
+                        "ipAddress": "ipAddress",
+                        "shopperRating": 0,
+                        "loyaltyPoints": 0,
+                        "loyaltyRank": 0,
+                        "friends": "friends",
+                        "appleId": "000054.8cb87a0d6f264de293987356b08d311d.0853",
+                        "inviteToken": "inviteToken",
+                        "createdAt": "2021-11-26T12:56:36.603Z",
+                        "updatedAt": "2021-11-26T18:03:47.241Z",
+                        "__v": 0
+                    },
+                    "createdAt": "2021-11-26T16:12:03.766Z",
+                    "updatedAt": "2021-11-26T19:20:15.038Z",
+                    "__v": 0
+                }
+            ],
+            "shoppersRejected": [],
+            "status": "broadcasting",
+            "createdAt": "2021-11-26T16:12:15.255Z",
+            "updatedAt": "2021-11-26T19:20:15.115Z",
+            "__v": 0,
+            "shopperAssigned": "61790c6c69c788a0d05838f1",
+            "timeAccepted": "2021-11-26T19:17:55.062Z",
+            "timeStarted": "2021-11-26T19:20:09.984Z",
+            "completedAt": "2021-11-26T19:20:15.115Z"
+        },
+        {
+            "_id": "61a0ddd5593c680011133f67",
+            "orders": [
+                {
+                    "_id": "61a0ddc8593c680011133f62",
+                    "status": "DELIVERED",
+                    "discounts": [],
+                    "products": [
+                        {
+                            "_id": "61a0ddc8593c680011133f63",
+                            "product": {
+                                "_id": "6163acacc442723bf43530c5",
+                                "manufacturerData": {
+                                    "otherCountries": [],
+                                    "name": "Jästbolaget",
+                                    "originCountry": "",
+                                    "tradeItemCountryOfOrigin": "Sverige"
+                                },
+                                "precautionaryData": {
+                                    "hazards": [],
+                                    "statements": [],
+                                    "batteryInfo": [],
+                                    "areBatteriesIncluded": null,
+                                    "areBatteriesRequired": null
+                                },
+                                "labels": [],
+                                "name": "Jäst Sockerdeg",
+                                "storeId": "100394146_ST",
+                                "storePotentialPromotions": [],
+                                "eanCode": "73500346",
+                                "displayVolume": "50g",
+                                "incrementValue": 1,
+                                "outOfStock": false,
+                                "online": true,
+                                "fruitAndVegetableVariety": "",
+                                "variantType": "",
+                                "description": "",
+                                "preparationDescription": "",
+                                "preparationType": "",
+                                "servingSize": null,
+                                "instructions": "",
+                                "foodContactName": "",
+                                "foodContactAddress": "",
+                                "nutritionData": {
+                                    "ingredients": "",
+                                    "facts": "",
+                                    "description": "",
+                                    "factList": []
+                                },
+                                "productLine2": "JÄSTBOLAGET, 50g",
+                                "pickupProductLine2": "JÄSTBOLAGET, 50g",
+                                "nicotineMedicalProduct": false,
+                                "nonEkoProduct": false,
+                                "productBasketType": {
+                                    "code": "ST",
+                                    "type": "ProductBasketTypeEnum"
+                                },
+                                "image": {
+                                    "imageType": "PRIMARY",
+                                    "format": "zoom",
+                                    "url": "https://d2rfo6yapuixuu.cloudfront.net/h68/h54/8854625255454/73500346.jpg_master_axfood_400",
+                                    "altText": "Jäst Sockerdeg 50g Jästbolaget",
+                                    "galleryIndex": null,
+                                    "width": null
+                                },
+                                "thumbnail": {
+                                    "imageType": "PRIMARY",
+                                    "format": "thumbnail",
+                                    "url": "https://d2rfo6yapuixuu.cloudfront.net/h27/h58/8854625386526/73500346.jpg_master_axfood_100",
+                                    "altText": "Jäst Sockerdeg 50g Jästbolaget",
+                                    "galleryIndex": null,
+                                    "width": null
+                                },
+                                "regulatoryAct": "",
+                                "compulsoryAdditiveLabelData": "",
+                                "nutritionalClaim": "",
+                                "healthClaimDescription": "",
+                                "consumerUsageInstructions": "",
+                                "consumerStorageInstructions": "",
+                                "categoryGroupText": "",
+                                "category": "mejeri-ost-och-agg/smor-margarin-och-jast/jast",
+                                "animalData": null,
+                                "averageWeight": null,
+                                "priceData": {
+                                    "amount": "2,8 kr",
+                                    "value": 2.8,
+                                    "comparePrice": "55,0 kr",
+                                    "comparePriceUnit": "kg",
+                                    "unit": "kr/st"
+                                },
+                                "store": "willys",
+                                "createdAt": "2021-10-11T03:17:00.668Z",
+                                "updatedAt": "2021-10-11T03:17:00.668Z",
+                                "__v": 0,
+                                "categories": [
+                                    "mejeri-ost-och-agg",
+                                    "smor-margarin-och-jast",
+                                    "jast"
+                                ]
+                            },
+                            "quantity": 1
+                        }
+                    ],
+                    "totalAmount": 51.8,
+                    "totalQuantity": 1,
+                    "deliveryAddress": {
+                        "name": "Kung Magnus väg 3, 621 45 Visby, Sweden",
+                        "lat": 57.6377168,
+                        "lng": 18.2986391
+                    },
+                    "customer": null,
+                    "createdAt": "2021-11-26T13:14:48.950Z",
+                    "updatedAt": "2021-11-26T17:58:01.439Z",
+                    "__v": 0
+                }
+            ],
+            "shoppersRejected": [],
+            "status": "completed",
+            "createdAt": "2021-11-26T13:15:01.224Z",
+            "updatedAt": "2021-11-26T17:58:01.511Z",
+            "__v": 0,
+            "shopperAssigned": "61790c6c69c788a0d05838f1",
+            "timeAccepted": "2021-11-26T13:55:55.706Z",
+            "timeStarted": "2021-11-26T16:31:28.082Z",
+            "completedAt": "2021-11-26T17:58:01.510Z"
+        },
+        {
+            "_id": "619fe202f48651b6b4b7b28e",
+            "orders": [
+                {
+                    "_id": "619e243e528aaa7ca33bdbbe",
+                    "status": "DELIVERED",
+                    "discounts": [],
+                    "products": [
+                        {
+                            "_id": "619e243e528aaa7ca33bdbbf",
+                            "product": {
+                                "_id": "6163ac5ec442723bf43511da",
+                                "manufacturerData": {
+                                    "otherCountries": [],
+                                    "name": "Garant",
+                                    "originCountry": "",
+                                    "tradeItemCountryOfOrigin": "Sverige"
+                                },
+                                "precautionaryData": {
+                                    "hazards": [],
+                                    "statements": [],
+                                    "batteryInfo": [],
+                                    "areBatteriesIncluded": null,
+                                    "areBatteriesRequired": null
+                                },
+                                "labels": [
+                                    "swedish_flag",
+                                    "swedish_bird"
+                                ],
+                                "name": "Majskyckling Hel Sverige",
+                                "storeId": "101232454_KG",
+                                "storePotentialPromotions": [],
+                                "eanCode": "2307984000001",
+                                "displayVolume": "ca: 1.3kg",
+                                "incrementValue": 1,
+                                "outOfStock": false,
+                                "online": true,
+                                "fruitAndVegetableVariety": "",
+                                "variantType": "",
+                                "description": "Hel, färsk majskyckling från utvalda svenska gårdar av den högsta kvalitén. Undrar du vad som är skillnaden mellan vanlig kyckling och majskyckling? Jo, majskycklingar är uppfödda på majs istället för vete, och får därför ett gulare skinn och ett mörkare kött. Men framför allt är majskyckling alldeles fantastiskt saftig, mör och smakrik, med mild sötma från majsen. Riktigt god och bra mat alltså.",
+                                "preparationDescription": "Tillaga hela majskycklingen i ugn i ca 200°C i ca 60 min. Majskycklingen är klar när köttet lätt lossnar från benen, kärntemperaturen är 82°C och köttsaften är helt klar utan rosa inslag. Var noga med",
+                                "preparationType": "Ugnsgrilla",
+                                "servingSize": null,
+                                "instructions": "",
+                                "foodContactName": "Axfood AB",
+                                "foodContactAddress": "konsument@axfood.se\n0771-87 67 70",
+                                "nutritionData": {
+                                    "ingredients": "INGREDIENSER: Färsk Hel Majskyckling",
+                                    "facts": "",
+                                    "description": "100 gram",
+                                    "factList": [
+                                        {
+                                            "_id": "616392b7c450c51b4cccebc7",
+                                            "value": "750",
+                                            "typeCode": "energi",
+                                            "unitCode": "kilojoule",
+                                            "measurementPrecisionCode": ""
+                                        },
+                                        {
+                                            "_id": "616392b7c450c51b4cccebc8",
+                                            "value": "180",
+                                            "typeCode": "energi",
+                                            "unitCode": "kilokalori",
+                                            "measurementPrecisionCode": ""
+                                        },
+                                        {
+                                            "_id": "616392b7c450c51b4cccebc9",
+                                            "value": "12",
+                                            "typeCode": "fett",
+                                            "unitCode": "gram",
+                                            "measurementPrecisionCode": ""
+                                        },
+                                        {
+                                            "_id": "616392b7c450c51b4cccebca",
+                                            "value": "4",
+                                            "typeCode": "varav mättat fett",
+                                            "unitCode": "gram",
+                                            "measurementPrecisionCode": ""
+                                        },
+                                        {
+                                            "_id": "616392b7c450c51b4cccebcb",
+                                            "value": "0.5",
+                                            "typeCode": "kolhydrat",
+                                            "unitCode": "gram",
+                                            "measurementPrecisionCode": "<"
+                                        },
+                                        {
+                                            "_id": "616392b7c450c51b4cccebcc",
+                                            "value": "0.5",
+                                            "typeCode": "varav sockerarter",
+                                            "unitCode": "gram",
+                                            "measurementPrecisionCode": "<"
+                                        },
+                                        {
+                                            "_id": "616392b7c450c51b4cccebcd",
+                                            "value": "18",
+                                            "typeCode": "protein",
+                                            "unitCode": "gram",
+                                            "measurementPrecisionCode": ""
+                                        },
+                                        {
+                                            "_id": "616392b7c450c51b4cccebce",
+                                            "value": "0.2",
+                                            "typeCode": "salt",
+                                            "unitCode": "gram",
+                                            "measurementPrecisionCode": ""
+                                        }
+                                    ]
+                                },
+                                "productLine2": "GARANT, ca: 1.3kg",
+                                "pickupProductLine2": "GARANT, ca: 1.3kg",
+                                "nicotineMedicalProduct": false,
+                                "nonEkoProduct": false,
+                                "productBasketType": {
+                                    "code": "ST",
+                                    "type": "ProductBasketTypeEnum"
+                                },
+                                "image": {
+                                    "imageType": "PRIMARY",
+                                    "format": "zoom",
+                                    "url": "https://d2rfo6yapuixuu.cloudfront.net/h15/h5d/9374201675806/2307984000001_1550504747529_master_axfood_400",
+                                    "altText": "Majskyckling Hel Sverige ca: 1.3kg Garant",
+                                    "galleryIndex": null,
+                                    "width": null
+                                },
+                                "thumbnail": {
+                                    "imageType": "PRIMARY",
+                                    "format": "thumbnail",
+                                    "url": "https://d2rfo6yapuixuu.cloudfront.net/ha0/hb1/9374202003486/2307984000001_1550504747529_master_axfood_100",
+                                    "altText": "Majskyckling Hel Sverige ca: 1.3kg Garant",
+                                    "galleryIndex": null,
+                                    "width": null
+                                },
+                                "regulatoryAct": "",
+                                "compulsoryAdditiveLabelData": "",
+                                "nutritionalClaim": "",
+                                "healthClaimDescription": "",
+                                "consumerUsageInstructions": "",
+                                "consumerStorageInstructions": "Kylvara högst +4°C",
+                                "categoryGroupText": "",
+                                "category": "kott-chark-och-fagel/fagel/farsk-fagel",
+                                "animalData": null,
+                                "averageWeight": 1.3,
+                                "priceData": {
+                                    "amount": "58,2 kr/kg",
+                                    "value": 58.2,
+                                    "comparePrice": "58,2 kr",
+                                    "comparePriceUnit": "kg",
+                                    "unit": "kr/kg"
+                                },
+                                "store": "willys",
+                                "createdAt": "2021-10-11T03:15:42.719Z",
+                                "updatedAt": "2021-10-11T03:15:42.719Z",
+                                "__v": 0,
+                                "categories": [
+                                    "kott-chark-och-fagel",
+                                    "fagel",
+                                    "farsk-fagel"
+                                ]
+                            },
+                            "quantity": 2
+                        }
+                    ],
+                    "totalAmount": 105.8,
+                    "totalQuantity": 2,
+                    "deliveryAddress": {
+                        "name": "Hell's kitchen",
+                        "lat": 57.6299133,
+                        "lng": 18.3006965
+                    },
+                    "customer": null,
+                    "createdAt": "2021-11-24T11:38:38.644Z",
+                    "updatedAt": "2021-11-25T20:20:52.411Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "619e97416cc7420011ad5e46",
+                    "status": "DELIVERED",
+                    "discounts": [],
+                    "products": [
+                        {
+                            "_id": "619e97416cc7420011ad5e47",
+                            "product": {
+                                "_id": "6163acacc442723bf43530c5",
+                                "manufacturerData": {
+                                    "otherCountries": [],
+                                    "name": "Jästbolaget",
+                                    "originCountry": "",
+                                    "tradeItemCountryOfOrigin": "Sverige"
+                                },
+                                "precautionaryData": {
+                                    "hazards": [],
+                                    "statements": [],
+                                    "batteryInfo": [],
+                                    "areBatteriesIncluded": null,
+                                    "areBatteriesRequired": null
+                                },
+                                "labels": [],
+                                "name": "Jäst Sockerdeg",
+                                "storeId": "100394146_ST",
+                                "storePotentialPromotions": [],
+                                "eanCode": "73500346",
+                                "displayVolume": "50g",
+                                "incrementValue": 1,
+                                "outOfStock": false,
+                                "online": true,
+                                "fruitAndVegetableVariety": "",
+                                "variantType": "",
+                                "description": "",
+                                "preparationDescription": "",
+                                "preparationType": "",
+                                "servingSize": null,
+                                "instructions": "",
+                                "foodContactName": "",
+                                "foodContactAddress": "",
+                                "nutritionData": {
+                                    "ingredients": "",
+                                    "facts": "",
+                                    "description": "",
+                                    "factList": []
+                                },
+                                "productLine2": "JÄSTBOLAGET, 50g",
+                                "pickupProductLine2": "JÄSTBOLAGET, 50g",
+                                "nicotineMedicalProduct": false,
+                                "nonEkoProduct": false,
+                                "productBasketType": {
+                                    "code": "ST",
+                                    "type": "ProductBasketTypeEnum"
+                                },
+                                "image": {
+                                    "imageType": "PRIMARY",
+                                    "format": "zoom",
+                                    "url": "https://d2rfo6yapuixuu.cloudfront.net/h68/h54/8854625255454/73500346.jpg_master_axfood_400",
+                                    "altText": "Jäst Sockerdeg 50g Jästbolaget",
+                                    "galleryIndex": null,
+                                    "width": null
+                                },
+                                "thumbnail": {
+                                    "imageType": "PRIMARY",
+                                    "format": "thumbnail",
+                                    "url": "https://d2rfo6yapuixuu.cloudfront.net/h27/h58/8854625386526/73500346.jpg_master_axfood_100",
+                                    "altText": "Jäst Sockerdeg 50g Jästbolaget",
+                                    "galleryIndex": null,
+                                    "width": null
+                                },
+                                "regulatoryAct": "",
+                                "compulsoryAdditiveLabelData": "",
+                                "nutritionalClaim": "",
+                                "healthClaimDescription": "",
+                                "consumerUsageInstructions": "",
+                                "consumerStorageInstructions": "",
+                                "categoryGroupText": "",
+                                "category": "mejeri-ost-och-agg/smor-margarin-och-jast/jast",
+                                "animalData": null,
+                                "averageWeight": null,
+                                "priceData": {
+                                    "amount": "2,8 kr",
+                                    "value": 2.8,
+                                    "comparePrice": "55,0 kr",
+                                    "comparePriceUnit": "kg",
+                                    "unit": "kr/st"
+                                },
+                                "store": "willys",
+                                "createdAt": "2021-10-11T03:17:00.668Z",
+                                "updatedAt": "2021-10-11T03:17:00.668Z",
+                                "__v": 0,
+                                "categories": [
+                                    "mejeri-ost-och-agg",
+                                    "smor-margarin-och-jast",
+                                    "jast"
+                                ]
+                            },
+                            "quantity": 1
+                        }
+                    ],
+                    "totalAmount": 51.8,
+                    "totalQuantity": 1,
+                    "deliveryAddress": {
+                        "name": "Torsgatan, Visby, Sweden",
+                        "lat": 57.63127449999999,
+                        "lng": 18.2990148
+                    },
+                    "customer": null,
+                    "createdAt": "2021-11-24T19:49:21.679Z",
+                    "updatedAt": "2021-11-25T20:22:11.381Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "619fb1cc5010f400113e7acc",
+                    "status": "DELIVERED",
+                    "discounts": [],
+                    "products": [
+                        {
+                            "_id": "619fb1cc5010f400113e7acd",
+                            "product": {
+                                "_id": "6163ac8ac442723bf4352536",
+                                "manufacturerData": {
+                                    "otherCountries": [
+                                        "Grekland",
+                                        "Egypten"
+                                    ],
+                                    "name": "",
+                                    "originCountry": "Spanien",
+                                    "tradeItemCountryOfOrigin": ""
+                                },
+                                "precautionaryData": {
+                                    "hazards": [],
+                                    "statements": [],
+                                    "batteryInfo": [],
+                                    "areBatteriesIncluded": null,
+                                    "areBatteriesRequired": null
+                                },
+                                "labels": [
+                                    "keyhole"
+                                ],
+                                "name": "Apelsin Klass 1",
+                                "storeId": "100126114_KG",
+                                "storePotentialPromotions": [],
+                                "eanCode": "2090100300009",
+                                "displayVolume": "ca: 270g",
+                                "incrementValue": 1,
+                                "outOfStock": false,
+                                "online": true,
+                                "fruitAndVegetableVariety": "Navel L",
+                                "variantType": "",
+                                "description": "Det finns många olika sorters apelsiner som mognar och säljs under olika delar av året. Apelsinen är en mycket viktig C-vitaminkälla och vitaminerna bevaras bäst om frukten äts naturell.",
+                                "preparationDescription": "",
+                                "preparationType": "",
+                                "servingSize": null,
+                                "instructions": "",
+                                "foodContactName": "",
+                                "foodContactAddress": "",
+                                "nutritionData": {
+                                    "ingredients": "",
+                                    "facts": "",
+                                    "description": "",
+                                    "factList": []
+                                },
+                                "productLine2": "ca: 270g, Spanien",
+                                "pickupProductLine2": "Navel L, Spanien",
+                                "nicotineMedicalProduct": false,
+                                "nonEkoProduct": false,
+                                "productBasketType": {
+                                    "code": "ST",
+                                    "type": "ProductBasketTypeEnum"
+                                },
+                                "image": {
+                                    "imageType": "PRIMARY",
+                                    "format": "zoom",
+                                    "url": "https://d2rfo6yapuixuu.cloudfront.net/h8d/h2c/8854157459486/07311042000006.jpg_master_axfood_400",
+                                    "altText": "Apelsin Klass 1 ca: 270g ",
+                                    "galleryIndex": null,
+                                    "width": null
+                                },
+                                "thumbnail": {
+                                    "imageType": "PRIMARY",
+                                    "format": "thumbnail",
+                                    "url": "https://d2rfo6yapuixuu.cloudfront.net/hba/h28/8854157590558/07311042000006.jpg_master_axfood_100",
+                                    "altText": "Apelsin Klass 1 ca: 270g ",
+                                    "galleryIndex": null,
+                                    "width": null
+                                },
+                                "regulatoryAct": "",
+                                "compulsoryAdditiveLabelData": "",
+                                "nutritionalClaim": "",
+                                "healthClaimDescription": "",
+                                "consumerUsageInstructions": "",
+                                "consumerStorageInstructions": "",
+                                "categoryGroupText": "",
+                                "category": "frukt-och-gront/frukt/citrusfrukt",
+                                "animalData": null,
+                                "averageWeight": 0.27,
+                                "priceData": {
+                                    "amount": "25,2 kr/kg",
+                                    "value": 25.2,
+                                    "comparePrice": "25,2 kr",
+                                    "comparePriceUnit": "kg",
+                                    "unit": "kr/kg"
+                                },
+                                "store": "willys",
+                                "createdAt": "2021-10-11T03:16:26.580Z",
+                                "updatedAt": "2021-10-11T03:16:26.580Z",
+                                "__v": 0,
+                                "categories": [
+                                    "frukt-och-gront",
+                                    "frukt",
+                                    "citrusfrukt"
+                                ]
+                            },
+                            "quantity": 1
+                        }
+                    ],
+                    "totalAmount": 55.8,
+                    "totalQuantity": 1,
+                    "deliveryAddress": {
+                        "name": "Kung Magnus väg 3, 621 45 Visby, Sweden",
+                        "lat": 57.6377168,
+                        "lng": 18.2986391
+                    },
+                    "customer": null,
+                    "createdAt": "2021-11-25T15:54:52.118Z",
+                    "updatedAt": "2021-11-25T20:24:04.091Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "619fe1f3c056c000110bfa3f",
+                    "status": "DELIVERED",
+                    "discounts": [],
+                    "products": [
+                        {
+                            "_id": "619fe1f3c056c000110bfa40",
+                            "product": {
+                                "_id": "6163ac8ac442723bf4352536",
+                                "manufacturerData": {
+                                    "otherCountries": [
+                                        "Grekland",
+                                        "Egypten"
+                                    ],
+                                    "name": "",
+                                    "originCountry": "Spanien",
+                                    "tradeItemCountryOfOrigin": ""
+                                },
+                                "precautionaryData": {
+                                    "hazards": [],
+                                    "statements": [],
+                                    "batteryInfo": [],
+                                    "areBatteriesIncluded": null,
+                                    "areBatteriesRequired": null
+                                },
+                                "labels": [
+                                    "keyhole"
+                                ],
+                                "name": "Apelsin Klass 1",
+                                "storeId": "100126114_KG",
+                                "storePotentialPromotions": [],
+                                "eanCode": "2090100300009",
+                                "displayVolume": "ca: 270g",
+                                "incrementValue": 1,
+                                "outOfStock": false,
+                                "online": true,
+                                "fruitAndVegetableVariety": "Navel L",
+                                "variantType": "",
+                                "description": "Det finns många olika sorters apelsiner som mognar och säljs under olika delar av året. Apelsinen är en mycket viktig C-vitaminkälla och vitaminerna bevaras bäst om frukten äts naturell.",
+                                "preparationDescription": "",
+                                "preparationType": "",
+                                "servingSize": null,
+                                "instructions": "",
+                                "foodContactName": "",
+                                "foodContactAddress": "",
+                                "nutritionData": {
+                                    "ingredients": "",
+                                    "facts": "",
+                                    "description": "",
+                                    "factList": []
+                                },
+                                "productLine2": "ca: 270g, Spanien",
+                                "pickupProductLine2": "Navel L, Spanien",
+                                "nicotineMedicalProduct": false,
+                                "nonEkoProduct": false,
+                                "productBasketType": {
+                                    "code": "ST",
+                                    "type": "ProductBasketTypeEnum"
+                                },
+                                "image": {
+                                    "imageType": "PRIMARY",
+                                    "format": "zoom",
+                                    "url": "https://d2rfo6yapuixuu.cloudfront.net/h8d/h2c/8854157459486/07311042000006.jpg_master_axfood_400",
+                                    "altText": "Apelsin Klass 1 ca: 270g ",
+                                    "galleryIndex": null,
+                                    "width": null
+                                },
+                                "thumbnail": {
+                                    "imageType": "PRIMARY",
+                                    "format": "thumbnail",
+                                    "url": "https://d2rfo6yapuixuu.cloudfront.net/hba/h28/8854157590558/07311042000006.jpg_master_axfood_100",
+                                    "altText": "Apelsin Klass 1 ca: 270g ",
+                                    "galleryIndex": null,
+                                    "width": null
+                                },
+                                "regulatoryAct": "",
+                                "compulsoryAdditiveLabelData": "",
+                                "nutritionalClaim": "",
+                                "healthClaimDescription": "",
+                                "consumerUsageInstructions": "",
+                                "consumerStorageInstructions": "",
+                                "categoryGroupText": "",
+                                "category": "frukt-och-gront/frukt/citrusfrukt",
+                                "animalData": null,
+                                "averageWeight": 0.27,
+                                "priceData": {
+                                    "amount": "25,2 kr/kg",
+                                    "value": 25.2,
+                                    "comparePrice": "25,2 kr",
+                                    "comparePriceUnit": "kg",
+                                    "unit": "kr/kg"
+                                },
+                                "store": "willys",
+                                "createdAt": "2021-10-11T03:16:26.580Z",
+                                "updatedAt": "2021-10-11T03:16:26.580Z",
+                                "__v": 0,
+                                "categories": [
+                                    "frukt-och-gront",
+                                    "frukt",
+                                    "citrusfrukt"
+                                ]
+                            },
+                            "quantity": 1
+                        }
+                    ],
+                    "totalAmount": 55.8,
+                    "totalQuantity": 1,
+                    "deliveryAddress": {
+                        "name": "Kung Magnus väg 3, 621 45 Visby, Sweden",
+                        "lat": 57.6377168,
+                        "lng": 18.2986391
+                    },
+                    "customer": null,
+                    "createdAt": "2021-11-25T19:20:19.157Z",
+                    "updatedAt": "2021-11-25T20:26:19.236Z",
+                    "__v": 0
+                }
+            ],
+            "shoppersRejected": [],
+            "status": "broadcasting",
+            "createdAt": "2021-11-25T19:20:34.702Z",
+            "updatedAt": "2021-11-25T20:26:19.833Z",
+            "__v": 0,
+            "shopperAssigned": "61790c6c69c788a0d05838f1",
+            "timeAccepted": "2021-11-25T19:48:39.120Z",
+            "timeStarted": "2021-11-25T20:08:35.660Z",
+            "completedAt": "2021-11-25T20:26:19.832Z"
+        }
+    ]
+}
