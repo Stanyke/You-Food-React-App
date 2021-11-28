@@ -20,7 +20,7 @@ export default function AllQuests() {
   const [activeTagElement, setActiveTagElement] = useState(null);
 
   useEffect(() => {
-    getQuestsFromTestData();
+    getQuestsFromDb();
   }, []);
 
   useEffect(() => {

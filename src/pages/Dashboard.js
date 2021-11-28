@@ -17,7 +17,7 @@ export default function Dashboard() {
   const [questsStats, setQuestsStats] = useState(null);
 
   useEffect(() => {
-    getQuestsFromTestData();
+    getQuestsFromDb();
   }, []);
 
   useEffect(() => {
