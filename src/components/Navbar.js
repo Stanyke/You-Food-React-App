@@ -82,19 +82,19 @@ export default function Navbar() {
                     <div>
                         <div className="nav-link mobileLink" onClick={() => navigationHandler('/')}>
                             <div><img src={HomeIcon} alt="HomeIcon" /></div>
-                            <div>Home</div>
+                            <div class="notSelectable">Home</div>
                         </div>
                     </div>
                     <div>
                         <div className="nav-link mobileLink" onClick={() => navigationHandler('/quests')}>
                             <div><img src={RoundRingIcon} alt="RoundRingIcon" /></div>
-                            <div>Quests</div>
+                            <div class="notSelectable">Quests</div>
                         </div>
                     </div>
                     <div>
                         <div className="nav-link mobileLink">
                             <div><img src={PayoutIcon} alt="PayoutIcon" /></div>
-                            <div>Payouts</div>
+                            <div class="notSelectable">Payouts</div>
                         </div>
                     </div>
                     <div>
